@@ -1,0 +1,6 @@
+framework module XSJZjhTestNetworking {
+  umbrella header "XSJZjhTestNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

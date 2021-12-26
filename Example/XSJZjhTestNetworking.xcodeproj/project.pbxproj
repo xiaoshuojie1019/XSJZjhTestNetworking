@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		2649BB6A27D8C135B12091A4 /* Pods_XSJZjhTestNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSJZjhTestNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40008AF462202C82D88BB1A6 /* Pods-XSJZjhTestNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSJZjhTestNetworking_Example.release.xcconfig"; path = "Target Support Files/Pods-XSJZjhTestNetworking_Example/Pods-XSJZjhTestNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5BE453218E94030AE83CD04A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5BE453218E94030AE83CD04A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XSJZjhTestNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSJZjhTestNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* XSJZjhTestNetworking_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSJZjhTestNetworking_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A64F58EA61B4FB8B77907379 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A64F58EA61B4FB8B77907379 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AE93FD4B9F9F03FF95BC2EEF /* Pods-XSJZjhTestNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSJZjhTestNetworking_Example.debug.xcconfig"; path = "Target Support Files/Pods-XSJZjhTestNetworking_Example/Pods-XSJZjhTestNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD3E6CE3778B50D2989510EA /* Pods-XSJZjhTestNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSJZjhTestNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XSJZjhTestNetworking_Tests/Pods-XSJZjhTestNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C65AA1CBD7DC044714783DDB /* Pods_XSJZjhTestNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSJZjhTestNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCACD3E7B6088AC297AC2BA1 /* Pods-XSJZjhTestNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSJZjhTestNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-XSJZjhTestNetworking_Tests/Pods-XSJZjhTestNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DEEE483F29239D08C8DBACCF /* XSJZjhTestNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XSJZjhTestNetworking.podspec; path = ../XSJZjhTestNetworking.podspec; sourceTree = "<group>"; };
+		DEEE483F29239D08C8DBACCF /* XSJZjhTestNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XSJZjhTestNetworking.podspec; path = ../XSJZjhTestNetworking.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				BD3E6CE3778B50D2989510EA /* Pods-XSJZjhTestNetworking_Tests.debug.xcconfig */,
 				CCACD3E7B6088AC297AC2BA1 /* Pods-XSJZjhTestNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
